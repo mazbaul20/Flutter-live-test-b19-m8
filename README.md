@@ -1,17 +1,44 @@
-# blood_requests
+# Blood Requests UI
+---
+A simple, clean, and modern **Blood Request List UI** built with Flutter. The entire layout is structured inside a single file using straightforward Flutter widgets, keeping the codebase completely beginner-friendly and easy to read.
 
-A new Flutter project.
+## Project Preview
+---
+Here is the visual snapshot of the UI output:
 
-## Getting Started
+![Blood Request UI](assets/blood-requests.png)
 
-This project is a starting point for a Flutter application.
+## Code Features
+---
+* **Single-File Structure:** Built sequentially within the main script without any custom widget separations or external layout components.
+* **Modern Material 3 Compliance:** Implements Flutter's latest `.withValues(alpha: 0.05)` color configuration for soft drop-shadow rendering, successfully eliminating any deprecated `.withOpacity()` line-through warning errors.
 
-A few resources to get you started if this is your first Flutter project:
+## Installation & Setup
+---
+Follow these precise steps to clone the repository, install dependencies, and run the project locally:
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+### 1. Clone the Repository
+---
+First, open your terminal, navigate to the folder where you want to save the project, and run the following command to clone it from GitHub:
+```bash
+git clone https://github.com/mazbaul20/Flutter-live-test-b19-m8
+```
+### 2. Navigate to Project Directory
+---
+Switch into the project folder you just cloned:
+```bash
+cd Flutter-live-test-b19-m8
+```
+### 3. Install Dependencies
+Fetch all the required Flutter packages and build files by running:
+```bash
+flutter pub get
+```
+### 4. Run the Project
+Ensure you have a mobile emulator running or a real device connected, then boot up the application by executing:
+```bash
+flutter run
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+*Note: The preview screenshot is saved under the `assets/blood-requests.png` directory and is already registered inside the `pubspec.yaml` configuration.*
